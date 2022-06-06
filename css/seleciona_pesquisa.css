@@ -46,3 +46,19 @@ body{background-color: #254F9A;}
 
 #title{padding-top: 7%; margin-bottom: 2%;}
 #subtitle{margin-bottom: 4%;}
+
+@media(min-width: 320px) and (max-width:374px) {
+    .logo{width: 190px;
+        }
+}
+
+ @media(min-width:375px) and (max-width:570px) {
+    
+    .logo{width: 190px;}
+}
+
+  @media (max-width: 575.98px) {
+   
+    .logo{width: 210px;
+        }
+}  
