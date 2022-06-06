@@ -1,3 +1,229 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
 
 #table{text-align: center;}
+/* background:rgb(35, 35, 191); */
+
+/* esconder scrollbar no: chrome, safari, edge, opera */
+        
+::-webkit-scrollbar {
+    display: none;
+}
+/* esconder scrollbar no: internet explorer*/
+
+body {
+    -ms-overflow-style: none;
+    height: 100%;
+    width:100%;
+}
+/* esconder scrollbar no: firefox*/
+
+html {
+    scrollbar-width: none;
+}
+
+/* header */
+header{
+background-color: #fff;}
+
+main{margin-bottom: 18%;
+    height: 100%;
+    width:100%;}
+
+.logo{width: 400px; 
+    height: 60px;}
+
+.link{color:rgb(36, 36, 154); 
+    margin-right: 15px;}
+
+/* Section 1*/
+
+#section1{background-color: #254F9A;}
+
+#title, #subtitle, #title2, #text{font-family: Arial, Helvetica, sans-serif;}
+
+#title, #subtitle{color: #fff; 
+    text-align: 
+    center;
+    font-weight: 500;}
+
+#title{padding-top: 4%;}
+
+.start-btn{width: 210px; 
+    margin-top: 3%; 
+    margin-left: 41%; 
+    background-color: red; color: #fff;}
+
+.start-btn:hover{color: rgb(36, 36, 154); 
+    transition: 0.35s;}
+
+/* Section 2*/
+
+#section2{height:300px; 
+    width: 100%; 
+    background-color: #fff;}
+
+#title2{
+    color:rgb(36, 36, 154);
+    font-weight: 500;
+}
+
+#text{width: 80%; 
+    color:#3D3D3C;}
+
+.btn2{width: 200px; 
+    background-color:rgb(36, 36, 154); 
+    color: #fff;}
+
+.btn2:hover{
+    background: red;
+    color: #fff;
+    transition: 0.45s;
+}
+
+#img2{width: 300;}
+/* Footer */
+#footer{
+    background-color: #254F9A;
+}
+
+/* media queries */
+.btn-footer{border:solid 1px #fff; 
+    background-color: #fff;}
+
+.icon{color: #254F9A; 
+    font-size:18px;}
+    
+.icon:hover{color: red; 
+    transition: 0.45s;}
+
+     @media(min-width: 320px) and (max-width:374px) {
+        body{
+            height:1200px;
+            }
+        
+        .logo{width: 190px;
+            }
+        main{height: 100%;}
+        
+        #start-btn{
+            margin-left:17%;
+        }
+
+        #section2{height: 100%;}
+        
+        #text{width: 100%;
+        }
+
+        #img2{display: none;}
+
+        #footer{width: 100%;
+        height:80px;
+        margin-top: 65%;}
+    }
+    
+     @media(min-width:375px) and (max-width:570px) {
+        body{
+            height:1000px;
+            }
+        
+        .logo{width: 190px;
+            }
+
+        main{height: 100%; margin-bottom: 20%;}
+        
+        #start-btn{
+            margin-left: 23%;
+        }
+
+        #section2{height: 100%;}
+
+        #text{width: 100%;
+        }
+        
+        #img2{display: none;}
+
+        #footer{width: 100%;
+        height:80px;
+        margin-top: 25%;}
+    }
+    
+      @media (max-width: 575.98px) {
+        body{
+            height:800px;
+            }
+        
+        .logo{width: 190px;
+            }
+        
+        .start-btn{
+                margin-left: 28%;
+            }
+
+        main{height: 100%;
+        margin-bottom: 0px;}
+        
+        #section2{height: 65%;}
+        
+        #text{width: 100%;
+        }
+
+        #img2{display: none;}
+
+        #footer{width: 100%;
+        height:80px;}
+    }  
+    
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        body{
+            height:830px;
+            }
+    
+            main{
+                height: 100%;
+                margin-bottom: 0;
+            }
+    
+            .start-btn{
+                margin-left: 28%;
+            }
+            #section2{height: 60%;}
+            
+            #text{width: 100%;}
+
+            #img2{display: none;}
+
+            #footer{width: 100%;
+            height:80px;}
+    }
+    
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        body{
+        height:630px;
+        }
+
+        main{padding-bottom: 0;
+            height: 100%;
+        }
+
+        .start-btn{
+            margin-left: 33%;
+        }
+        #section2{height: 80%;}
+
+        #text{width: 100%;}    
+
+        #img2{display: none;}
+    }
+    
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+        body{
+        height:850px;
+        }
+
+        .start-btn{
+            margin-left: 38%;
+        }
+
+        #section2{height: 80%;}
+
+    }

@@ -1,7 +1,12 @@
     const listaProutos = async() => {
         const url = `https://mercado.carrefour.com.br/api/catalog_system/pub/products/search`;
         // fetch(url).then(response => response.json()).then(console.log);
-        const dados = await fetch(url);
+        const dados = await fetch(url, {
+        mode: 'cors',method: "GET",
+        headers:{
+            accept: "application/json",
+            },
+        });
         const produtos = await dados.json();
         console.log(produtos);
 
