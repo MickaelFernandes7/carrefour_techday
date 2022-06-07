@@ -1,15 +1,10 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
 
-#table{text-align: center;}
-/* background:rgb(35, 35, 191); */
-
-/* esconder scrollbar no: chrome, safari, edge, opera */
-        
+/* esconder scrollbar no: chrome, safari, edge, opera */     
 ::-webkit-scrollbar {
     display: none;
 }
 /* esconder scrollbar no: internet explorer*/
-
 body {
     -ms-overflow-style: none;
     height: 100%;

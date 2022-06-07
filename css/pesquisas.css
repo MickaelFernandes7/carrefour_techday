@@ -1,6 +1,5 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
 
-#table{text-align: center;}
 /* background:rgb(35, 35, 191); */
 
 /* esconder scrollbar no: chrome, safari, edge, opera */
@@ -33,6 +32,9 @@ body{background-color: #254F9A;}
 
 /* Section 1*/
 
+.table{background-color:#fff; 
+    color: #254F9A;};
+
 #section1{background-color: #254F9A;}
 
 #row{height: 100%; background-color: #254F9A;}
@@ -49,18 +51,68 @@ body{background-color: #254F9A;}
 
 #subtitle{margin-bottom: 4%;}
 
+#btn{margin-left: 35%; 
+    background-color:red; 
+    color: #fff;
+    width: 300px;}
+
+#btn2{display: none;
+    background-color:red; 
+    color: #fff;
+    width: 200px;    
+}
+
+#btn:hover{background-color: #fff; 
+    color: #254F9A; 
+    transition: 0.35s;}
+
+#tr:hover{background-color: red; 
+    transition: 0.30s; 
+    color: #fff;}
+
 @media(min-width: 320px) and (max-width:374px) {
     .logo{width: 190px;
         }
+
+    #btn{display: none;}
+    
+    #btn2{display: block;
+        width:200px;
+        margin-left: 17%;}
 }
 
- @media(min-width:375px) and (max-width:570px) {
+ @media(min-width:375px) and (max-width:425px) {
     
     .logo{width: 190px;}
+
+    #btn{display: none;}
+    
+    #btn2{width:200px;
+        display: block;
+        margin-left: 23%;}
 }
 
   @media (max-width: 575.98px) {
    
     .logo{width: 210px;
         }
+    
+    #btn{
+        width: 300px;
+        margin-left: 14%;}
 }  
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #btn{
+        margin-left: 23%;}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #btn{
+        margin-left: 30%;}
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #btn{
+        margin-left: 32%;}
+}

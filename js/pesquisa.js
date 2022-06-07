@@ -4,11 +4,11 @@ function recuperarValorSelecionado(){
         console.log(valorSelecionado);
 
         if(valorSelecionado == 'nome'){
-            alert('Nome dos produtos');
+            window.open('../pesquisaNome.html')
         }
     
         if(valorSelecionado == 'id'){
-                alert('Identificador do Produto');
+            window.open('../pesquisaId.html')
             }
         
         if(valorSelecionado == 'marca'){
