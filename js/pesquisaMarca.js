@@ -39,8 +39,8 @@ const enviar = async() => {
         for(i = 0; i < produtos.length; i++){
             //criação dos campos da tabela
 
-            // se o nome do produto, for igual ao nome do produto no array, imprimir os dados da tabela, na tela.
-            if(nomeProd == produtos[i].productName){
+            // se o nome da marca do produto, for igual ao nome da marca do produto no array, imprime os dados da tabela, na tela.
+            if(nomeProd == produtos[i].brand){
                 html+='<tr id="tr">';
                 html+='<td>'+ produtos[i].productId+'<td>';
                 html+='<td>'+produtos[i].productName+'<td>';

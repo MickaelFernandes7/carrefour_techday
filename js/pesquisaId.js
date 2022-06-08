@@ -27,13 +27,14 @@ const enviar = async() => {
         var html = "<table class='table table-responsive table-bordered text-center table-hover'> ";
             //ciração do cabeçalho da tabela
             html+='<tr>';
-            html+='<th>'+ 'Id do Produto'+'<th>';
-            html+='<th>'+'Nome do Produto'+'<th>';
-            html+='<th>'+'Marca do Produto'+'<th>';
-            html+='<th>'+'Id da Marca do Produto'+'<th>';
-            html+='<th>'+'Referência do Produto'+'<th>';
-            html+='<th>'+'Código da Referência do Produto'+'<th>';
-            html+='<th>'+'Identificador da Categoria'+'<th>';
+            html+='<th scope="col">'+ 'Id do Produto'+'<th>';
+            html+='<th scope="col">'+'Nome do Produto'+'<th>';
+            html+='<th scope="col">'+'Marca do Produto'+'<th>';
+            html+='<th scope="col">'+'Id da Marca do Produto'+'<th>';
+            html+='<th scope="col">'+'Referência do Produto'+'<th>';
+            html+='<th scope="col">'+'Código da Referência do Produto'+'<th>';
+            html+='<th scope="col">'+'Identificador da Categoria'+'<th>';
+            html+='<th scope="col">'+'Link de Acesso ao Produto'+'<th>';
             html+='</tr>';
 
     setTimeout(() => {
@@ -50,6 +51,7 @@ const enviar = async() => {
                 html+='<td>'+produtos[i].productReference+'<td>';
                 html+='<td>'+produtos[i].productReferenceCode+'<td>';
                 html+='<td>'+produtos[i].categoryId+'<td>';
+                html+='<td>'+produtos[i].link+'<td>';
                 html+='</tr>';
                 document.getElementById('table').innerHTML = html;     
             }

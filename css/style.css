@@ -34,6 +34,7 @@ main{margin-bottom: 18%;
 
 #section1{background-color: #254F9A;}
 
+/* Textos das telas */
 #title, #subtitle, #title2, #text{font-family: Arial, Helvetica, sans-serif;}
 
 #title, #subtitle{color: #fff; 
@@ -43,20 +44,6 @@ main{margin-bottom: 18%;
 
 #title{padding-top: 4%;}
 
-.start-btn{width: 210px; 
-    margin-top: 3%; 
-    margin-left: 41%; 
-    background-color: red; color: #fff;}
-
-.start-btn:hover{color: rgb(36, 36, 154); 
-    transition: 0.35s;}
-
-/* Section 2*/
-
-#section2{height:300px; 
-    width: 100%; 
-    background-color: #fff;}
-
 #title2{
     color:rgb(36, 36, 154);
     font-weight: 500;
@@ -65,6 +52,24 @@ main{margin-bottom: 18%;
 #text{width: 80%; 
     color:#3D3D3C;}
 
+/* Fim Textos das telas */
+
+/* Botão Iniciar */
+.start-btn{width: 210px; 
+    margin-top: 3%; 
+    margin-left: 41%; 
+    background-color: red; color: #fff;}
+
+.start-btn:hover{background-color: #fff; 
+    color: #254F9A; 
+    transition: 0.35s;}
+
+/* Section 2*/
+#section2{height:300px; 
+    width: 100%; 
+    background-color: #fff;}
+
+/* Botão Veja Mais */
 .btn2{width: 200px; 
     background-color:rgb(36, 36, 154); 
     color: #fff;}

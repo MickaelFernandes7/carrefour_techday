@@ -5,6 +5,7 @@
     <!-- Meta tags Obrigatórias -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- Link CSS -->
@@ -14,7 +15,7 @@
     <!-- icones font-awesome -->
     <script src="https://kit.fontawesome.com/82c40dad7d.js" crossorigin="anonymous"></script>
     <!-- Link JS -->
-    <title>Pesquisar Todos os Produtos</title>
+    <title>Pesquisa por Marca do Produto</title>
 </head>
 
 <body>
@@ -54,16 +55,28 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <table>
-                            <div id="table" class="mt-5"></div>
-                        </table>
+                        <h2 id="title">Pesquisa por Marca do Produto</h2>
+                        <h5 id="subtitle">Digite a marca do produto que deseja consultar, e clique duas vezes no botão pesquisar, para poder visualizar os dados do produto.</h5>
+
+                        <form>
+                            <input type="text" id="nomeProd" class="form-control" placeholder="Marca do Produto" onblur="recarregar()" required>
+
+                            <a href="#" id="btn" onclick="enviar()" placeholder="Pesquisar" class="btn mt-3 text-center">Pesquisar</a>
+                            <!-- btn para telas pequenas -->
+                            <a href="#" id="btn2" onclick="enviar()" placeholder="Pesquisar" class="btn mt-3 text-center">Pesquisar</a>
+                        </form>
                     </div>
                 </div>
             </div>
+            
+            <!-- Tabela de produtos -->
+            <table class="mt-4 table table-responsive">
+                <div id="table" class="mt-5"></div>
+            </table>
         </section>
-    </main>
+</main>
   
-    <script src="./js/consultarprodutos.js"></script>
+    <script src="./js/pesquisaMarca.js"></script>
     <!-- Import JS do Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 " crossorigin="anonymous "></script>
