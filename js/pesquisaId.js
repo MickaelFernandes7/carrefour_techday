@@ -1,5 +1,5 @@
 
-// Função que recarrefa a página
+// Função que recarrega a página
 function recarregar(){
     location.reload();
 }

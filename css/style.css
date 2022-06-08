@@ -98,7 +98,7 @@ main{margin-bottom: 18%;
 
      @media(min-width: 320px) and (max-width:374px) {
         body{
-            height:1200px;
+            height:1100px;
             }
         
         .logo{width: 190px;
@@ -118,12 +118,12 @@ main{margin-bottom: 18%;
 
         #footer{width: 100%;
         height:80px;
-        margin-top: 65%;}
+        margin-top: 60%;}
     }
     
-     @media(min-width:375px) and (max-width:570px) {
+     @media(min-width:375px) and (max-width:425px) {
         body{
-            height:1000px;
+            height:950px;
             }
         
         .logo{width: 190px;
@@ -132,7 +132,7 @@ main{margin-bottom: 18%;
         main{height: 100%; margin-bottom: 20%;}
         
         #start-btn{
-            margin-left: 23%;
+            margin-left: 22%;
         }
 
         #section2{height: 100%;}
@@ -144,7 +144,7 @@ main{margin-bottom: 18%;
 
         #footer{width: 100%;
         height:80px;
-        margin-top: 25%;}
+        margin-top: 28%;}
     }
     
       @media (max-width: 575.98px) {
@@ -156,7 +156,7 @@ main{margin-bottom: 18%;
             }
         
         .start-btn{
-                margin-left: 28%;
+                margin-left: 25.5%;
             }
 
         main{height: 100%;
@@ -170,7 +170,8 @@ main{margin-bottom: 18%;
         #img2{display: none;}
 
         #footer{width: 100%;
-        height:80px;}
+            height:80px;
+            }
     }  
     
     @media (min-width: 576px) and (max-width: 767.98px) {
@@ -193,7 +194,8 @@ main{margin-bottom: 18%;
             #img2{display: none;}
 
             #footer{width: 100%;
-            height:80px;}
+                height: 85px;
+                margin-top: 5%;}
     }
     
     @media (min-width: 768px) and (max-width: 991.98px) {
@@ -213,6 +215,10 @@ main{margin-bottom: 18%;
         #text{width: 100%;}    
 
         #img2{display: none;}
+
+        #footer{width: 100%;
+            height:85px;
+            margin-top: 0;}
     }
     
     @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -226,4 +232,13 @@ main{margin-bottom: 18%;
 
         #section2{height: 80%;}
 
+        #footer{width: 100%;
+            height:85px;
+            margin-top: 0;}
+    }
+
+    @media (min-width: 1200px) and (max-width:1350px) {
+        #footer{width: 100%;
+            height:90px;
+            margin-top: 0px;}
     }
