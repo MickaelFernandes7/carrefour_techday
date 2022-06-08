@@ -1,12 +1,8 @@
-// Função que recarrefa a página
-function recarregar(){
-    location.reload();
-}
-
 // Função que consome a API e faz a validação apra trazer e exibir os daods do produto na tela
 const enviar = async() => {  
         // input do formulário que recebe o nome do produto
         let nomeProd = document.querySelector('#nomeProd').value;
+        console.log(nomeProd);
         
         // url da api   
         const url = `https://mercado.carrefour.com.br/api/catalog_system/pub/products/search`;

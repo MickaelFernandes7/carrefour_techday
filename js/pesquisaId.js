@@ -1,10 +1,4 @@
-
-// Função que recarrega a página
-function recarregar(){
-    location.reload();
-}
-
-// Função que consome a API e faz a validação apra trazer e exibir os daods do produto na tela
+// Função que consome a API e faz a validação para trazer e exibir os daods do produto na tela
 const enviar = async() => {     
 
         // input do formulário que recebe o nome do produto

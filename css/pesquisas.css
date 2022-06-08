@@ -2,11 +2,7 @@
 
 /* background:rgb(35, 35, 191); */
 
-/* esconder scrollbar no: chrome, safari, edge, opera */
-        
-::-webkit-scrollbar {
-    display: none;
-}
+
 /* esconder scrollbar no: internet explorer*/
 
 body {
