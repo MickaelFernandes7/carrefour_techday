@@ -1,7 +1,6 @@
 // Função que pega o valor do select e faz o direcionamento para as páginas 
 function recuperarValorSelecionado(){
         var valorSelecionado = document.getElementById('pesquisa').value;
-    
         console.log(valorSelecionado);
 
         if(valorSelecionado == 'nome'){
@@ -23,4 +22,10 @@ function recuperarValorSelecionado(){
             window.open('../consultarprodutos.html');
             location.reload(1);
         }
+    }
+
+
+function mensagemExtensao(){
+    //Chamada do Modal de Dialog
+    $('#modalDialog').modal('show');
     }

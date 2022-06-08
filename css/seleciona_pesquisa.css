@@ -53,6 +53,15 @@ body{background-color: #254F9A;}
 #subtitle{margin-bottom: 4%;}
 /* Fim Textos das telas */
 
+/* textos modal */
+.modal-title{color: #254F9A;}
+
+.modal-body{font-family: Arial, Helvetica, sans-serif; 
+    color: #254F9A;}
+
+#modal-btn{background-color: #254F9A; 
+    color: #fff;}
+    
 @media(min-width: 320px) and (max-width:374px) {
     .logo{width: 190px;
         }
