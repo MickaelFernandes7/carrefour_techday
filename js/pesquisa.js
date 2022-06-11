@@ -4,23 +4,22 @@ function recuperarValorSelecionado(){
         console.log(valorSelecionado);
 
         if(valorSelecionado == 'nome'){
-            window.open('../pesquisaNome.html');
-            location.reload(1);
+            window.location.href = '../pesquisaNome.html';
+            
         }
     
         if(valorSelecionado == 'id'){
-            window.open('../pesquisaId.html');
-            location.reload(1);
+            window.location.href = '../pesquisaId.html';
+            
             }
         
         if(valorSelecionado == 'marca'){
-            window.open('../pesquisaMarca.html');
-            location.reload(1);
+            window.location.href ='../pesquisaMarca.html';
         }
         
         if(valorSelecionado == 'todos'){
-            window.open('../consultarprodutos.html');
-            location.reload(1);
+            window.location.href = '../consultarprodutos.html'
+            
         }
     }
 

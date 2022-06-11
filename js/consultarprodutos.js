@@ -20,6 +20,7 @@
             html+='<th scope="col">'+'Id da Marca do Produto'+'<th>';
             html+='<th scope="col">'+'Referência do Produto'+'<th>';
             html+='<th scope="col">'+'Código da Referência do Produto'+'<th>';
+            html+='<th scope="col">'+'Categoria do Produto'+'<th>';
             html+='<th scope="col">'+'Identificador da Categoria'+'<th>';
             html+='<th scope="col">'+'Link de Acesso ao Produto'+'<th>';
             html+='</tr>';
@@ -34,6 +35,7 @@
             html+='<td>'+produtos[i].brandId+'<td>';
             html+='<td>'+produtos[i].productReference+'<td>';
             html+='<td>'+produtos[i].productReferenceCode+'<td>';
+            html+='<td>'+produtos[i].categories+'<td>';
             html+='<td>'+produtos[i].categoryId+'<td>';
             html+='<td>'+produtos[i].link+'<td>';
             html+='</tr>';
