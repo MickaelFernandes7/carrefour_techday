@@ -3,7 +3,6 @@ const enviar = async() => {
 
         // input do formulário que recebe o nome do produto
         let idProd = document.querySelector('#idProd').value;
-
         // url da api   
         const url = `https://mercado.carrefour.com.br/api/catalog_system/pub/products/search`;
 

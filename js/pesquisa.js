@@ -1,8 +1,7 @@
 // Função que pega o valor do select e faz o direcionamento para as páginas 
 function recuperarValorSelecionado(){
         var valorSelecionado = document.getElementById('pesquisa').value;
-        console.log(valorSelecionado);
-
+        
         if(valorSelecionado == 'nome'){
             window.location.href = '../pesquisaNome.html';
             

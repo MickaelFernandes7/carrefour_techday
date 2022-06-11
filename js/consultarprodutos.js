@@ -8,8 +8,6 @@
             },
         });
         const produtos = await dados.json();
-        
-        console.log(produtos);
 
         var html = "<table class='table table-responsive table-bordered text-center table-hover'>";
             //ciração do cabeçalho da tabela
